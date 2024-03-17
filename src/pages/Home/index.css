@@ -1,0 +1,284 @@
+.top-header {
+    background: #131313;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.top-header .img {
+    max-width: 616px;
+    width: auto;
+    height: 732px;
+    background: url(../../assets/headph.png);
+    margin-bottom: 50px;
+}
+
+.top-header .title h3 {
+    letter-spacing: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.top-header .title h1 {
+    max-width: 396px;
+    width: auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 24px;
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.top-header .title p {
+    max-width: 349px;
+    width: auto;
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFF;
+    margin-top: 24px;
+}
+
+.top-header .title button {
+    padding: 15px 30px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    background: #D87D4A;
+    color: #FFF;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+.top-header .title button:hover {
+    background: #fbaf85;
+}
+
+.home .card-1 .title h2 {
+    max-width: 261px;
+    width: auto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 2px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+
+.home .card-1 .title p {
+    max-width: 349px;
+    width: auto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.home .card-1 .title button {
+    padding: 15px 30px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    background: #000;
+    color: #FFF;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+    transition: all 0.3s;
+}
+
+.home .card-1 .title button:hover {
+    background: #4c4c4c;
+}
+
+.home .card-1 {
+    max-width: 1110px;
+    width: auto;
+    height: 560px;
+    background: #D87D4A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    margin-top: 168px;
+}
+
+.home .card-1 img {
+    margin-right: 138px;
+    margin-top: 68px;
+}
+
+.home .card-2 {
+    background: url(../../assets/speaker2.png);
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.home .card-2 .title {
+    padding: 101px 95px;
+}
+
+.home .card-2 .title h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 2px;
+    color: #000;
+    margin-bottom: 32px;
+}
+
+.home .card-2 .title button {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    background: transparent;
+    color: #000;
+    transition: all 0.3s;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    padding: 15px 30px;
+}
+
+.home .card-2 .title button:hover {
+    background: #000;
+    color: #FFF;
+}
+
+.home .card-3 .title button {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    background: transparent;
+    color: #000;
+    transition: all 0.3s;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin-top: 32px;
+}
+
+.home .card-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.home .card-3 .title button:hover {
+    background: #000;
+    color: #FFF;
+}
+
+.home .card-3 .title {
+    max-width: 540px;
+    width: auto;
+    height: 320px;
+    background: #FAFAFA;
+    padding: 101px 198px 101px 95px;
+}
+
+.home .pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home .pages .body-img {
+    object-fit: cover;
+    background: transparent;
+    position: absolute;
+    margin-left: 113px;
+    margin-top: -94px;
+    box-shadow: 0px 80px 58px -53px rgb(0, 0, 0);
+}
+
+.home .pages .body-imgs {
+    object-fit: cover;
+    position: absolute;
+    margin-left: 112px;
+    margin-top: -67px;
+}
+
+.home .pages .page {
+    position: relative;
+    cursor: pointer;
+}
+
+.home .pages .page .card-page {
+    /* margin-top: 36px; */
+    max-width: 350px;
+    width: auto;
+    background: #F1F1F1;
+    padding: 116px 108px 30px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+
+
+.home .pages .page .card-page h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 1.2857142686843872px;
+}
+.home .pages .page .card-page h4 {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+    transition: all 0.3s;
+}
+
+.home .pages .page:hover .card-page h4 {
+    color: #D87D4A;
+}
+
+@media only screen and (max-width: 768px) {
+    .top-header {
+        background: url(../../assets/headph.png);
+        background-repeat: no-repeat;
+    }
+
+    .top-header .img {
+        width: 0;
+    }
+
+    .home .card-1 {
+        max-width: 689px;
+        width: auto;
+    }
+
+    .home .pages {
+        gap: 10px;
+    }
+
+    .home .pages .page .card-page {
+        max-width: 350px;
+        width: auto;
+        padding: 116px 54px 22px;
+    }
+
+    .home .pages .body-img {
+        object-fit: cover;
+        position: absolute;
+        margin-left: 73px;
+        margin-top: -67px;
+    }
+}
